@@ -1,9 +1,9 @@
 {
-  "name": "constructor-react-hook",
-  "version": "0.0.1",
-  "description": "react hook for functional component that behaves like a class constructor and component will mount lifecycle method",
+  "name": "use-constructor",
+  "version": "0.0.2",
+  "description": "react hook that behaves like a class constructor for functional components",
   "keywords": [
-    "constructor-react-hook",
+    "use-constructor",
     "component",
     "will",
     "mount",
@@ -11,9 +11,9 @@
     "react",
     "hook"
   ],
-  "homepage": "https://github.com/codejamninja/constructor-react-hook",
+  "homepage": "https://github.com/codejamninja/use-constructor",
   "bugs": {
-    "url": "https://github.com/codejamninja/constructor-react-hook/issues",
+    "url": "https://github.com/codejamninja/use-constructor/issues",
     "email": "jam@codejam.ninja"
   },
   "license": "MIT",
@@ -28,7 +28,7 @@
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/codejamninja/constructor-react-hook"
+    "url": "https://github.com/codejamninja/use-constructor"
   },
   "scripts": {
     "build": "make -s build",

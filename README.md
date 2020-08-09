@@ -1,42 +1,53 @@
-# constructor-react-hook
+# use-constructor
 
-[![GitHub stars](https://img.shields.io/github/stars/codejamninja/constructor-react-hook.svg?style=social&label=Stars)](https://github.com/codejamninja/constructor-react-hook)
+[![GitHub stars](https://img.shields.io/github/stars/codejamninja/use-constructor.svg?style=social&label=Stars)](https://github.com/codejamninja/use-constructor)
 
-> react hook for functional component that behaves like a class constructor and component will mount lifecycle method
+> react hook that behaves like a class constructor for functional components
 
 Please ★ this repo if you found it useful ★ ★ ★
 
 ## Installation
 
 ```sh
-npm install --save constructor-react-hook
+npm install --save use-constructor
 ```
 
 ## Usage
 
-[Contribute](https://github.com/codejamninja/constructor-react-hook/blob/master/CONTRIBUTING.md) usage docs
+```ts
+import React, { FC } from 'react';
+import useConstructor from 'use-constructor';
+
+const Component: FC = () => {
+  useConstructor(() => {
+    console.log('component will mount');
+  });
+
+  return <></>;
+}
+```
 
 ## Support
 
-Submit an [issue](https://github.com/codejamninja/constructor-react-hook/issues/new)
+Submit an [issue](https://github.com/codejamninja/use-constructor/issues/new)
 
 ## Screenshots
 
-[Contribute](https://github.com/codejamninja/constructor-react-hook/blob/master/CONTRIBUTING.md) a screenshot
+[Contribute](https://github.com/codejamninja/use-constructor/blob/master/CONTRIBUTING.md) a screenshot
 
 ## Contributing
 
-Review the [guidelines for contributing](https://github.com/codejamninja/constructor-react-hook/blob/master/CONTRIBUTING.md)
+Review the [guidelines for contributing](https://github.com/codejamninja/use-constructor/blob/master/CONTRIBUTING.md)
 
 ## License
 
-[MIT License](https://github.com/codejamninja/constructor-react-hook/blob/master/LICENSE)
+[MIT License](https://github.com/codejamninja/use-constructor/blob/master/LICENSE)
 
 [Jam Risser](https://codejam.ninja) © 2020
 
 ## Changelog
 
-Review the [changelog](https://github.com/codejamninja/constructor-react-hook/blob/master/CHANGELOG.md)
+Review the [changelog](https://github.com/codejamninja/use-constructor/blob/master/CHANGELOG.md)
 
 ## Credits
 
