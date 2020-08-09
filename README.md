@@ -1,5 +1,7 @@
 # use-constructor
 
+[![npm](https://img.shields.io/npm/v/use-constructor.svg?style=flat-square)](https://www.npmjs.com/package/use-constructor)
+[![npm](https://img.shields.io/npm/dt/use-constructor.svg?style=flat-square)](https://www.npmjs.com/package/use-constructor)
 [![GitHub stars](https://img.shields.io/github/stars/codejamninja/use-constructor.svg?style=social&label=Stars)](https://github.com/codejamninja/use-constructor)
 
 > react hook that behaves like a class constructor for functional components

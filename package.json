@@ -1,6 +1,6 @@
 {
   "name": "use-constructor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "react hook that behaves like a class constructor for functional components",
   "keywords": [
     "use-constructor",
