@@ -6,6 +6,8 @@
 
 > react hook that behaves like a class constructor for functional components
 
+![](assets/use-constructor.png)
+
 Please ★ this repo if you found it useful ★ ★ ★
 
 ## Installation
